@@ -1,5 +1,3 @@
-"user client";
-
 import { Link } from "@heroui/link";
 import { button as buttonStyles } from "@heroui/theme";
 import { Image } from "@heroui/image";
