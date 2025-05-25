@@ -7,7 +7,6 @@ import { Providers } from "./providers";
 
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
-import { Navbar } from "@/components/navbar";
 import { HeartFilledIcon } from "@/components/icons";
 
 export const metadata: Metadata = {
@@ -39,7 +38,7 @@ export default function RootLayout({
       <body
         className={clsx(
           "min-h-screen text-foreground bg-background font-sans antialiased",
-          fontSans.variable
+          fontSans.variable,
         )}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
@@ -56,7 +55,7 @@ export default function RootLayout({
                 title="heroui.com homepage"
               >
                 <span className="text-default-600">Made with</span>
-                <HeartFilledIcon size={20} color="red" />{" "}
+                <HeartFilledIcon color="red" size={20} />{" "}
                 <span className="text-default-600">by</span>
                 <p className="text-primary">Ashish</p>
               </Link>

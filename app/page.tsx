@@ -1,16 +1,12 @@
 "user client";
 
 import { Link } from "@heroui/link";
-import { Snippet } from "@heroui/snippet";
-import { Code } from "@heroui/code";
 import { button as buttonStyles } from "@heroui/theme";
+import { Image } from "@heroui/image";
 
 import { siteConfig } from "@/config/site";
-import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
 import { LinkedInIcon } from "@/components/icons";
-import { Alert } from "@heroui/alert";
-import { Image } from "@heroui/image";
 
 export default function Home() {
   return (
@@ -19,8 +15,9 @@ export default function Home() {
         {/* Left Section (Text + Buttons) */}
         <div className="order-2 md:order-1 space-y-6 md:pt-20 text-center md:text-left">
           <h1 className="text-xl">
-            I'm Ashish, a Staff Software Engineer with 9+ years of experience
-            designing full-stack systems and driving engineering excellence.
+            I&apos;m Ashish, a Staff Software Engineer with 9+ years of
+            experience designing full-stack systems and driving engineering
+            excellence.
           </h1>
 
           <div className="flex flex-wrap gap-3 justify-center md:justify-start">

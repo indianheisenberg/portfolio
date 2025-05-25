@@ -194,10 +194,10 @@ export const LinkedInIcon: React.FC<IconSvgProps> = ({
 }) => {
   return (
     <svg
-      height={size || height}
-      width={size || width}
-      viewBox="0 0 24 24"
       fill="currentColor"
+      height={size || height}
+      viewBox="0 0 24 24"
+      width={size || width}
       {...props}
     >
       <path d="M19 0h-14C2.24 0 0 2.24 0 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5V5c0-2.76-2.24-5-5-5zm-11 19H5V9h3v10zm-1.5-11.28c-.97 0-1.75-.79-1.75-1.75S5.53 4.22 6.5 4.22s1.75.79 1.75 1.75S7.47 7.72 6.5 7.72zm13.5 11.28h-3v-5.5c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94V19h-3V9h2.88v1.37h.04c.4-.76 1.36-1.56 2.8-1.56 3 0 3.55 1.97 3.55 4.53V19z" />
